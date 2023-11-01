@@ -1,0 +1,39 @@
+curl -o bootstrap.min.css https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css
+VetGanado/
+│
+├── css/                      (Archivos CSS para estilos)
+│   ├── style.css             (Estilos personalizados)
+│   └── ...
+│
+├── images/                   (Imágenes y recursos visuales)
+│   ├── logo.png              (Logotipo de VetGanado)
+│   └── ...
+│
+├── includes/                 (Archivos PHP reutilizables)
+│   ├── db_connect.php        (Conexión a la base de datos MySQL)
+│   ├── functions.php         (Funciones comunes de PHP)
+│   ├── menu.php              (Menú reutilizable)
+│   └── ...
+│
+├── pages/                    (Páginas PHP específicas)
+│   ├── index.php             (Página de inicio de sesión)
+│   ├── crear_cuenta.php      (Página para crear una cuenta)
+│   ├── main.php              (Página principal después del inicio de sesión)
+│   ├── vacunos.php           (Página para gestionar vacunos)
+│   │   ├── agregar_vacuno.php (Submenú "Agregar Vacuno")
+│   │   └── dosis.php         (Submenú "Dosis")
+│   ├── ovinos.php            (Página para gestionar ovinos)
+│   │   ├── agregar_ovino.php (Submenú "Agregar Ovino")
+│   │   └── dosis.php         (Submenú "Dosis")
+│   ├── enfermedades.php      (Página para gestionar enfermedades)
+│   ├── profesionales.php     (Página para gestionar profesionales)
+│   ├── perfil.php            (Página para gestionar el perfil del usuario)
+│   ├── soporte.php           (Página para brindar soporte)
+│   └── ...
+│
+├── bootstrap/                (Archivos de Bootstrap)
+│   ├── css/                  (Estilos de Bootstrap)
+│   ├── js/                   (Scripts de Bootstrap)
+│   └── ...
+│
+└── index.php                 (Página de inicio, redirige a inicio de sesión)
